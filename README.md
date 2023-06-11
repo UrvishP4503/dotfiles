@@ -1,7 +1,3 @@
-# My Ever-Evolving Configuration
-
-Welcome to my configuration repository! This is where I keep my personal setup files.
-
 ## Quotes
 
 - Edsger W. Dijkstra:
@@ -32,6 +28,5 @@ Welcome to my configuration repository! This is where I keep my personal setup f
 
   > "The best error message is the one that never shows up."
 
-Feel free to explore my configuration files and get inspired. Personalizing your development environment is a never-ending journey. Keep refining, experimenting, and evolving your setup to make it perfect for you.
 
 Happy coding! 🚀
