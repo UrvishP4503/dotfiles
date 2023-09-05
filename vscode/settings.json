@@ -1,0 +1,159 @@
+{
+    "editor.fontLigatures": true,
+    "editor.bracketPairColorization.enabled": true,
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "workbench.colorTheme": "Rosé Pine",
+    "workbench.iconTheme": "catppuccin-latte",
+    "editor.fontSize": 20,
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.formatOnSave": true,
+    "workbench.statusBar.visible": false,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.activityBar.visible": false,
+    "workbench.layoutControl.enabled": false,
+    "editor.lineNumbers": "relative",
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindings": [
+        // navigation
+        {
+            "before": [
+                "<S-h>"
+            ],
+            "commands": [
+                ":bprevious"
+            ]
+        },
+        {
+            "before": [
+                "<S-l>"
+            ],
+            "commands": [
+                ":bnext"
+            ]
+        },
+        // splits
+        {
+            "before": [
+                "leader",
+                "v"
+            ],
+            "commands": [
+                ":vsplit"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "s"
+            ],
+            "commands": [
+                ":split"
+            ]
+        },
+        // panes
+        {
+            "before": [
+                "<C-h>"
+            ],
+            "commands": [
+                "workbench.action.focusLeftGroup"
+            ]
+        },
+        {
+            "before": [
+                "<C-j>"
+            ],
+            "commands": [
+                "workbench.action.focusBelowGroup"
+            ]
+        },
+        {
+            "before": [
+                "<C-k>"
+            ],
+            "commands": [
+                "workbench.action.focusAboveGroup"
+            ]
+        },
+        {
+            "before": [
+                "<C-l>"
+            ],
+            "commands": [
+                "workbench.action.focusRightGroup"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "w"
+            ],
+            "commands": [
+                ":w!"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "q"
+            ],
+            "commands": [
+                ":q!"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "x"
+            ],
+            "commands": [
+                ":x!"
+            ]
+        },
+        {
+            "before": [
+                "<C-down>"
+            ],
+            "commands": [
+                "workbench.action.increaseViewHeight"
+            ]
+        },
+        {
+            "before": [
+                "<C-up>"
+            ],
+            "commands": [
+                "workbench.action.decreaseViewHeight"
+            ]
+        },
+        {
+            "before": [
+                "<C-right>"
+            ],
+            "commands": [
+                "workbench.action.increaseViewWidth"
+            ]
+        },
+        {
+            "before": [
+                "<C-left>"
+            ],
+            "commands": [
+                "workbench.action.decreaseViewWidth"
+            ]
+        }
+    ],
+    "vim.useSystemClipboard": true,
+    "workbench.startupEditor": "none",
+    "window.zoomLevel": -1,
+    "cSpell.userWords": [
+        "pydantic"
+    ],
+    "cSpell.diagnosticLevel": "Hint",
+}
