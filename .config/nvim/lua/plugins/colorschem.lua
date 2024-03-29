@@ -1,10 +1,9 @@
 return {
-  { "ellisonleao/gruvbox.nvim" },
-
+  { "ellisonleao/gruvbox.nvim", "rose-pine/neovim" },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "rose-pine",
     },
   },
 }
