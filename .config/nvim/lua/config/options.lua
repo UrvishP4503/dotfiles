@@ -10,3 +10,4 @@ opt.shiftwidth = 4
 opt.tabstop = 4
 opt.expandtab = true
 opt.softtabstop = 4
+opt.smarttab = true
